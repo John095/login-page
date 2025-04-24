@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/gmc-logo.svg" alt="google-icon" class="main-logo" />
+      <div class="form-container">
+        <!-- Heading -->
+        <p class="sub-heading">Please enter your details</p>
+        <h2 class="heading">Welcome back</h2>
+        <!-- Form -->
+        <form>
+          <input type="text" placeholder="Email Address..." />
+          <input type="password" placeholder="Password..." />
+          <div class="checkbox_link">
+            <div class="checkbox_group">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">Remember for 30 days</label>
+            </div>
+            <a href="#" style="color: #006dda">Forgot Password</a>
+          </div>
+          <input type="submit" value="Sign In" class="submit" />
+        </form>
+        <!-- Bottom Part -->
+        <div class="bottom">
+          <a href="#">
+            <div class="google">
+              <img src="images/google.png" alt="google-icon" />
+              <p>Sign In with Google</p>
+            </div>
+          </a>
+          <p class="sign-up">Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #efecec;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 95%;
+  max-width: 500px;
+  border: none;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sub-heading {
+  font-size: 16px;
+  color: #999999;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  color: #333;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #a8a8a8;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #006dda;
+}
+
+.submit {
+  background-color: #006dda;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #006dda;
+  transition: 0.4s ease;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #006dda;
+}
+
+.checkbox_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+}
+
+.checkbox_group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox_group input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.checkbox_group label {
+  line-height: 1;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: 1px solid #a8a8a8;
+  border-radius: 10px;
+}
+
+.google p {
+  font-size: 16px;
+  color: #333;
+}
+
+.google img {
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottom p {
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+}
+
+.bottom p a {
+  color: #006dda;
+  font-weight: 500;
+}
+
+.sign-up {
+  font-size: 14px;
+}
+
+.main-logo {
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
